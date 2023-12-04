@@ -5,19 +5,112 @@
 		<title></title>
 		<meta name="viewport"
 			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/vant@4/lib/index.css" />
 		<style>
-			.page {}
+			.page {
+				background-color: #f5f5f5;
+			}
+
+			.header {
+				font-size: 32px;
+				text-align: center;
+			}
+
+			.waterFull {
+				column-count: 2;
+				column-gap: 5px;
+				margin-top: 10px;
+
+			}
+
+			.item {
+				width: 100%;
+				margin: 10px;
+			}
 
 			img {
 				width: 100%;
 			}
+
+			button {
+				border-radius: 5px;
+				color: white;
+				border: none;
+				background-color: #009688;
+			}
 		</style>
 	</head>
 	<body>
-		<div class="page">
-			<div><a style='font-size: 32px;' href="">一个属于洁洁的静态网站</a></div>
-			<a href="./self/one.html">点击测试第一个页面</a>
-			<img style="margin-top: 10px;" src="./image/qianduan.png" alt="" />
+		<div id="app" class="page">
+			<div class="header"><a style='' href="">洁洁的美丽"FeiWu"们</a></div>
+			<a style="margin-left: 10px;margin-top:10px;" href="./self/one.html">点击测试第一个页面</a>
+			<button style="float: right;"> 点击上传图片</button>
+			<div class="waterFull" id="con">
+				<div class="item">
+					<img src="./image/jj/3.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/1.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/4.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/5.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/6.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/7.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/8.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/9.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/10.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/5.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/7.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/5.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/1.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/3.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./image/jj/6.jpg" alt="">
+				</div>
+
+			</div>
 		</div>
+		<!-- <script src="https://fastly.jsdelivr.net/npm/vue@3"></script> -->
+		<script src="https://fastly.jsdelivr.net/npm/vant@4/lib/vant.min.js"></script>
+		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+		<script>
+			import {} from 'vant';
+			const {
+				createApp,
+				ref
+			} = Vue
+			createApp({
+				setup() {
+					const message = ref('Hello vue!')
+					return {
+						message: "aaaa"
+					}
+				}
+			}).mount('#app').use(Button)
+		</script>
 	</body>
 </html>
