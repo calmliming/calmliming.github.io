@@ -15,7 +15,7 @@
 
 ```
 FROM node:latest
-LABEL liyonglong "liyong857637472@163.com"
+LABEL calmliming "1669819167@qq.com"
 
 COPY . /usr/src/webapp
 WORKDIR /usr/src/webapp
@@ -30,7 +30,7 @@ CMD npm install
 ## 业务项目镜像配置
 ```
 FROM nodeservice-basic:node-12.15.0-v1
-LABEL liyonglong "liyong857637472@163.com"
+LABEL calmliming "1669819167@qq.com"
 
 COPY . /usr/src/webapp
 WORKDIR /usr/src/webapp

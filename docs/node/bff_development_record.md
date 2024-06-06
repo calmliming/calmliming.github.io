@@ -74,7 +74,7 @@
 
 ### 槽点
 ​    Node.js的学习资源还是太少了，比如我在学习`Redis`的实战教程的时候，就只能看`Java`版本的，学习`RabbitMq`的时候也是`Java`的。我看的`数据结构和算法教程`也是`Java`的，当然这个可能大家都是看C的，但我不会C，就很无奈了，当然书籍有`JavaScript`版本的，大家感兴趣可以自己看。
-实战方面的踩坑，我也踩过不少，比如使用`node`图片处理，这方面我也是踩坑了两天才上手了。[node-canvas 生成营销图](https://github.com/coolliyong/coolliyong.github.io/blob/master/docs/node/node_canvas.md)。
+实战方面的踩坑，我也踩过不少，比如使用`node`图片处理，这方面我也是踩坑了两天才上手了。[node-canvas 生成营销图](https://github.com/calmliming/calmliming.github.io/blob/master/docs/node/node_canvas.md)。
 
 但是，作为一个开发工程师，除了开发的能力，还要具备工程师不折不扣的折腾主义精神。奥力给。
 
@@ -83,7 +83,7 @@
 对异步编程的理解也更深入了，对于`nodejs`的了解也不是以前的*demo级*。
 虽然有学习资源相对较少，但还是不影响`node.js性价比`很强的事实，内存使用很少，`CPU`占用也很小，这一点对于企业来说也很重要，资源就是钱。
 
-性价比体现可以看[Node + MQ 限流小计](https://github.com/coolliyong/coolliyong.github.io/blob/master/docs/node/current_limiting.md)，虽然没有体现出极致性能，但还是可以看得出一些效果的。
+性价比体现可以看[Node + MQ 限流小计](https://github.com/calmliming/calmliming.github.io/blob/master/docs/node/current_limiting.md)，虽然没有体现出极致性能，但还是可以看得出一些效果的。
 
 **路漫漫其修远兮，吾将上下而求索**
 
@@ -91,11 +91,11 @@
 
 ### 其他链接：
 
-[github博客：欢迎star，一起学习，一起成长](https://github.com/coolliyong/coolliyong.github.io)
+[github博客：欢迎star，一起学习，一起成长](https://github.com/calmliming/calmliming.github.io)
 
-[KOA 中间件机制和实现](https://github.com/coolliyong/coolliyong.github.io/blob/master/docs/node/koa_middle.md)
+[KOA 中间件机制和实现](https://github.com/calmliming/calmliming.github.io/blob/master/docs/node/koa_middle.md)
 
-[Nodejs 操作 RabbitMq 快速上手](https://github.com/coolliyong/node_rabbitMQ_mqtutorial/blob/master/README.md)
+[Nodejs 操作 RabbitMq 快速上手](https://github.com/calmliming/node_rabbitMQ_mqtutorial/blob/master/README.md)
 
 
 

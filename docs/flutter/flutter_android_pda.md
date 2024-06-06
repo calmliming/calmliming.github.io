@@ -1,5 +1,5 @@
 # Flutter对接Android PDA（手持终端）设备硬件
-![设备打印](E:\test\coolliyong.github.io\imgs\flutter_android_device\flutter_print.jpg)
+![设备打印](E:\test\calmliming.github.io\imgs\flutter_android_device\flutter_print.jpg)
 
 ## 背景
 公司需要开发一个项目，需要使用实现手持设备拍照、提交订单、打印缴款单，刚开始考虑使用h5，上面说h5性能太差了，可以使用`React Native` 或者 `Flutter`,
@@ -9,7 +9,7 @@
 ## APP搭建
 先使用命令创建APP，这里我指定了android的语言为java，因为kotlin不太会
 ```shell
-flutter create --project-name coolliyong_app --android-language java
+flutter create --project-name calmliming_app --android-language java
 ```
 
 目录结构如下：

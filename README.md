@@ -57,7 +57,7 @@
 
 ## Vue
 
-- [Vue2.0 源码阅读(未完结)](https://github.com/coolliyong/vue/blob/dev/README.md)
+- [Vue2.0 源码阅读(未完结)](https://github.com/calmliming/vue/blob/dev/README.md)
 - [VUE 页面切换时候 回到顶部](/docs/vue/vue.scrollTop.md)
 - [VUE3.0 响应式机制](/docs/vue/3.vue3.reactivity.md)
 - [这几段代码助你理解Vue3响应式](/docs/vue/vue3.reactive.md)
@@ -66,11 +66,11 @@
 ## Node
 
 - [koa 入门示例](/docs/node/koa_study.md)
-- [koa 项目搭建](https://github.com/coolliyong/node/blob/master/readme.md)
+- [koa 项目搭建](https://github.com/calmliming/node/blob/master/readme.md)
 - [mysql+sequelize Orm 小示例](/docs/node/sequelize.md)
 - [消息和 CMQ](/docs/node/cmq.md)
 - [Redis 基础](/docs/node/redis_basic.md)
-- [Nodejs 操作 RabbitMq 快速上手](https://github.com/coolliyong/node_rabbitMQ_mqtutorial/blob/master/README.md)
+- [Nodejs 操作 RabbitMq 快速上手](https://github.com/calmliming/node_rabbitMQ_mqtutorial/blob/master/README.md)
 - [koa 中间件机制和实现](/docs/node/koa_middle.md)
 - [node-canvas 合成营销图片](/docs/node/node_canvas.md)
 - [Node + MQ 限流小计](/docs/node/current_limiting.md)
